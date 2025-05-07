@@ -8,3 +8,103 @@
 /* the font-family 'JetBrains Mono', has been linked
  * and is available for your use
  * */
+#profile-img {
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+}
+
+#summary {
+  max-width: 700px;
+  margin: 40px auto;
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #ffffff;
+}
+#summary h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #f4a261;
+}
+
+strong {
+  font-weight: bold;
+}
+
+section ul {
+  list-style: disc;
+  padding-left: 1.8rem;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.contact-card {
+  background-color: #eb8836;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: left;
+  width: 400px;
+  height: 100px;
+}
+
+.contact-card p {
+  margin: 8px 0;
+}
+
+.contact-info a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+hr {
+  margin: 10px 0;
+  border: 1px solid #aaa;
+}
+.bottom-section {
+  display: inline;
+  justify-content: center;
+}
+.bottom-section ul {
+  list-style-type: disc;
+  padding-right: 20px;
+}
+
+.section-heading {
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.section-heading h2 {
+  margin-bottom: 5px;
+}
+
+.section-heading hr {
+  border: 1px solid #aaa;
+}
+
+body {
+  background-color: rgb(29, 26, 26);
+  color: #ffffff;
+  font-family: 'JetBrains Mono';
+  font-size: 18px;
+  height: 100vh;
+}
+
+#formOutput {
+  background-color: #eb8836;
+  color: #ffffff;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  line-height: 1.6;
+}

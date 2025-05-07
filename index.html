@@ -5,7 +5,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>Doris Okewu / Web Developer</title>
     <!-- add fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,10 +18,91 @@
   </head>
   <body>
     <!-- Header Area -->
-    <header></header>
+    <header>
+      <div class="top-section">
+        <div class="profile-picture">
+      <img id="profile-img"
+      src="assets/images/Coding-pana.png"
+      alt="Profile-Picture"/>
+        </div> 
+    </header>
     <!-- Main Area -->
     <main>
-      <h1>My Amazing Portfolio</h1>
+      <div class="header-container">
+      <h1>Hi, I'm Doris Okewu-Frontend Developer and Creative Thinker</h1>
+
+      <!--CONTACT INFO BOX-->
+      <div class="contact-card">
+        <p>email: <a href="dorisokewu1@gmail.com">dorisokewu1.@gmail.com</a></p>
+        <p>phone: +2349135969828</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/doris-okewu">linkedin.com/in/doris-okewu</a></p>
+      </div>
+      </div>
+      <section id="summary">
+        <h2>Summary</h2>
+<p>
+  i'm a curious, creative, and slightly obsessive frontend developer who went from "what's HTML?" to "i got this" in a month. Yeah, i surprise myself too. Imagine what i'll be doing in a year. I turn wild ideas into clean, responsive designs - and Javascript? Basically my first language. Some say i was born with curly braces in my hands.
+</p>
+      </section> 
+      <section class="section-heading" id="education">
+        <h2>Education</h2>
+        <hr>
+        </div>
+        <ul>
+          <li>Frontend Development (Ongoing)<strong>-Tech4dev Bootcamp</strong></li>
+          <li>B.SC. in Agriculture<strong>-Unijos, 2017-2024</strong></li>
+          <li>Virtual Assistant</li>
+          <li>Youtube University- Majored in "How to center a div"</li>
+        </ul>
+      </section>
+          <section class="section-heading" id="experience">
+            <h2>Experience</h2>
+            <hr>
+            <ul>
+              <li>Junior Frontend Developer (in progress)- <strong>Building my first portfolio</strong></li>
+              <li>Tech4dev Bootcamp- <strong>Writing code, fixing bugs, and ocassionally blankly staring at my screen</strong></li>
+            </ul>
+          </section>
+           
+          <section class="bottom-section" id="hobbies">
+            <h2>Hobbies</h2>
+            <hr>
+            <ul>
+              <li>Watching dev recordings i hope to finish someday</li>
+              <li>Turning sportify playlist into my productivity fuel</li>
+              <li>Turning "just 5 minute break" into four chapters reading spree</li>
+              <li>Daydreaming about building apps that will change the world</li>
+            </ul>
+          </section>
+          <section class="bottom-section" id="skills">
+            <h2>Skills</h2>
+            <hr>
+            <ul>
+              <li>HTML - I tell the browser what's what... like a bossy architect </li>
+              <li>CSS - Dressing up my websites like they're going to a fashion show</li>
+              <li>Javascript - Making websites do stuff and sometimes crash(oops)</li>
+              <li>GitHub - Where i save my wins, fails, and all the "just testing" commits</li>
+              <li>VS Code - Basically home. I live here now</li>
+            </ul>
+          </section>
+          <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+              <label for="firstname">First Name:</label>
+              <input type="text" id="firstname" name="firstname" required />
+              <label for="secondname">Second Name:</label>
+              <input type="text" id="secondname" name="secondname" required />
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" required></textarea>
+              <button type="submit">Send</button>
+
+              <div id="formoutput"></div>
+            </form>
+          </section>
     </main>
+    <script src="script.js"></script>
+
   </body>
 </html>
