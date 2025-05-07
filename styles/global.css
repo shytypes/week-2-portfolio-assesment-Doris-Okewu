@@ -101,10 +101,15 @@ body {
 #formOutput {
   background-color: #eb8836;
   color: #ffffff;
-  padding: 1rem;
+  padding: 15px;
   border-radius: 10px;
-  margin-top: 2rem;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ddd;
+  margin-top: 20px;
+  box-shadow: 0 2px 5px rgba(165, 136, 136, 0.2);
   max-width: 600px;
   line-height: 1.6;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2rem;
 }
